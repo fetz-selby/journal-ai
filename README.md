@@ -1,4 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is an AI Mood App built with Next.js, Clerk for authentication, and OpenAI for AI-driven features. It allows users to track their mood, journal entries, and receive AI-generated insights based on their mood data.
+
+# AI Mood App
+
+This is an AI Mood App built with [Next.js](https://nextjs.org/), [Clerk](https://clerk.com/) for authentication, and [OpenAI](https://openai.com/) for AI-driven features. It allows users to track their mood, journal entries, and receive AI-generated insights based on their mood data.
+
+## Features
+
+- User authentication with Clerk
+- Mood tracking with AI-generated insights
+- Journal entries with AI suggestions
+- Responsive design with Tailwind CSS
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework for building server-side rendered applications
+- [Clerk](https://clerk.com/) - Authentication and user management
+- [OpenAI](https://openai.com/) - AI-driven features for mood analysis and journal suggestions
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for styling
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript for better development experience
+- [Prisma](https://www.prisma.io/) - ORM for database management
+- [PostgreSQL](https://www.postgresql.org/) - Relational database for storing user data
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) for package management
+- [PostgreSQL](https://www.postgresql.org/) for the database
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone
+   ```
 
 ## Getting Started
 
@@ -15,19 +51,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
